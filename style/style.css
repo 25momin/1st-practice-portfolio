@@ -1,0 +1,15 @@
+*{
+      margin: 0px;
+      font-family: 'Open Sans', sans-serif;
+}
+
+/* header and navigation style start */
+
+.nav-titel{
+      font-size: 45px;
+      font-weight: 800;
+}
+
+.primary-color{
+      color: #2a9c49;
+}
