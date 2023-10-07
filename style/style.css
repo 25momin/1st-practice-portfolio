@@ -7,9 +7,9 @@
 
 .header001{
       background-color: #fff8f3;
-      background-image: url(../images/header_bg.png);
+      background-image: url(../images/header_bg.png) , url(../images/developer.png);
       background-repeat: no-repeat;
-      background-position: bottom right;
+      background-position: bottom right , left;
 }
 
 nav{
@@ -86,7 +86,57 @@ nav ul{
       text-align: center ;
       font-weight: 800;
       font-size: 30px;
-
 }
 
 
+/* main section style */
+main{
+      max-width: 1500px;
+      margin: 0 auto;
+}
+
+
+/* About section styly start */
+
+.about-section{
+      margin: 100px 50px;
+      background-color:#fff8f3;
+      padding: 60px 40px;
+      border-radius: 10px;
+      text-align: justify;
+
+
+}
+
+.about-title{
+      text-align: center;
+      font-size: 50px;
+}
+
+.about-discreption{
+      margin: 30px 0px;
+      color: #2a9c49;
+      font-size: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+.contac-section ul{
+      margin-top: 10px;
+      display: flex;
+      text-decoration: none;
+      justify-content: space-between;
+      list-style: none;
+}
+
+.contac-section h4{
+      font-size: 25px;
+      text-align: center;
+      
+}
+
+.contac-section p{
+      margin-top: 10px;
+      font-size: 20px;
+      text-align: center;
+}
