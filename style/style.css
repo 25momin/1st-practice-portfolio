@@ -1,9 +1,32 @@
 *{
-      margin: 0px;
+      margin: 0;
       font-family: 'Open Sans', sans-serif;
 }
 
 /* header and navigation style start */
+
+.header001{
+      background-color: #fff8f3;
+      background-image: url(../images/header_bg.png);
+      background-repeat: no-repeat;
+      background-position: bottom right;
+}
+
+nav{
+      display: flex;
+      justify-content: space-between;
+      margin: 50px 200px;
+}
+
+nav li{
+      list-style: none;
+      margin: 20px 20px 20px 50px;
+}
+
+nav ul{
+      display: flex;
+      align-items: center;
+}
 
 .nav-titel{
       font-size: 45px;
@@ -13,3 +36,57 @@
 .primary-color{
       color: #2a9c49;
 }
+
+.nav-button01{
+      width: 200px;
+      height: 50px;
+      font-weight: 700;
+      font-size:20px;
+      padding: 10px 50px;
+      background-color:#2a9c49;
+}
+
+/* nav-bannar style start */
+.nav-bannar02{
+      display: flex;
+      align-items: center;
+      margin: 0px 200px;
+}
+
+.bannar-title01{
+      height: 20px;
+      width: 200px;
+      font-weight: 600;
+      font-size: 35px;
+      margin-bottom: 20px;
+}
+
+.bannar-title02{
+      font-weight: 800;
+      font-size: 80px;
+      margin-bottom: 5px;
+}
+
+.nav-bannar03{
+      align-items: baseline;
+}
+
+.bannar-discription{
+      font-weight: 200;
+      font-size: 20px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+}
+
+.nav-button02{
+      height: 80px;
+      width: 200px;
+      color: #ffffff;
+      background-color: #2a9c49;
+      text-align: center ;
+      font-weight: 800;
+      font-size: 30px;
+
+}
+
+
