@@ -87,7 +87,7 @@ nav ul{
       font-weight: 800;
       font-size: 30px;
 }
-
+/* nav-bannar style end */
 
 /* main section style */
 main{
@@ -139,4 +139,66 @@ main{
       margin-top: 10px;
       font-size: 20px;
       text-align: center;
+}
+
+/* what I do section style start */
+.section-what-i-do{
+      width: 1500px;
+      padding-top: 20px;
+      padding-bottom: 60px;
+}
+
+.section-what-i-do-1st-container{
+      text-align: center;
+      margin: 20px auto;
+}
+.section-what-i-do-1st-container h3{
+      font-size: 35px;
+      margin-bottom: 30px;
+      font-size: 50px;
+}
+
+.section-what-i-do-1st-container p{
+      margin: 20px;
+      text-align: left;
+      font-size: 20px;
+}
+
+
+
+.what-i-do-section-contant-01{
+      display: flex;
+      gap: 24px;
+      padding: 10px;
+      border: 10px;
+      border-radius: 5px;
+      
+      
+      
+}
+.what-i-do-type{
+      background-color: antiquewhite;
+      padding: 24px;
+      text-align: center;
+      padding-top: 24px; 
+      margin-top: 5px;   
+}
+
+.what-i-do-type img, h2, p{
+      margin-top: 20px;
+}
+
+.what-i-do-type p{
+      margin-top: 20px;
+}
+/* what I do section style end */
+
+/* Resume section start */
+
+.resum-section{
+      width: 1500px;
+}
+.resum-title{
+      font-weight: 100px;
+      font-size: 28px;
 }
